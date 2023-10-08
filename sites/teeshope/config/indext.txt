@@ -1,0 +1,5 @@
+name=teeshope
+item=//div[@class='aThumb']
+item.link=.//a/@href
+item.thumnail=.//img/@data-src
+page.next=.//div[@class='thumbnail']/div/a/@href

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"crawler.image"},{"v":2,"unique":true,"key":{"src":1.0},"name":"src_1","ns":"crawler.image"}],"uuid":"dcdafca335d24238bf1ceb640695b2f7"}

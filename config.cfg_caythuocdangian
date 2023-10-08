@@ -1,0 +1,21 @@
+# Database caythuocdangian.net
+poolName=caythuocdangian
+base=90
+log=log/${yyyy-MM-dd}.log
+idleTime=300000
+driverClass=com.mysql.jdbc.Driver
+driverURL=jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8
+user=root
+password=
+killActiveConnectionsOverAge=120000
+cycleConnections=1000
+queueConnectionRequests=true
+waitForConnectionIfDatabaseIsDown=true
+logLevel=info,warn,error,crisis
+
+-------------------------------------------------
+caythuocdangian.image=D:/Teeshope/caythuocdangian/img/
+caythuocdangian.guid=http://camnangduoclieu.com/?p=
+caythuocdangian.guidimg=http://camnangduoclieu.com/uploads/
+caythuocdangian.site=http://camnangduoclieu.com
+-------------------------------------------------

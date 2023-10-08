@@ -1,0 +1,7 @@
+tar -zcvf archive-name.tar.gz directory-name
+scp tee root@104.248.111.100:/var/www/html/wp-content/uploads/2018/11/
+TeeshopeAcountAdmin!@#
+tar -zxvf teeshope_11.gz
+mysqldump -uroot -pinterland teeshope wp_term_taxonomy wp_term_relationships wp_termmeta wp_terms wp_postmeta wp_posts| gzip > teeshope_11.sql.gz
+mysql -umysqldev -pTeeshopeAcountWordpress wordpress < 
+du -sh *

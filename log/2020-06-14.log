@@ -1,0 +1,404 @@
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 9:15:9 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 9:15:10 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 9:15:10 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 9:15:10 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 9:15:10 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 9:15:10 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 10:13:11 : INFO: [PoolMonitor@teeshope] PoolConnection@1192207910 has exceeded max idle time (300000 ms) with idle time of (3477055 ms) - dropping connection
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 12:13:33 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 12:17:12 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 12:21:4 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 12:21:5 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 12:21:5 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 12:21:5 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 12:21:5 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 12:21:5 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 12:25:7 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 12:25:8 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 12:25:8 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 12:25:8 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 12:25:8 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 12:25:8 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 12:26:54 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 12:29:45 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 16:41:19 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 16:41:20 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 16:41:20 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 16:41:20 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 16:41:20 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 16:41:20 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 16:41:59 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 16:42:0 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 16:42:0 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 16:42:0 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 16:42:0 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 16:42:0 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 19:9:16 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 19:59:21 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 19:59:22 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 19:59:22 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 19:59:22 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 19:59:22 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 19:59:22 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 22:57:27 : INFO: [Pool@teeshope] start() Load complete.
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] STARTING teeshope ...
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : logLevel='info,warn,error,crisis'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : poolName='teeshope'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : log='log/${yyyy-MM-dd}.log'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : idleTime='300000'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : base='90'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : driverClass='com.mysql.jdbc.Driver'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : driverURL='jdbc:mysql://localhost:3306/wordpress?useUnicode=true&characterEncoding=utf-8'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : adminEmail='null'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : emailEvents='null'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : checkSQL='null'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : runPooledMode='true'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : failoverPool='null'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : waitForConnectionIfDatabaseIsDown='true'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : numberOfConnectionsToInitializeWith='1'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : connectionTransactionIsolation='-1'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : smtpMailExchangeServer='null'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : cycleConnections='1000'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : queueConnectionRequests='true'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : smtpMailExchangeServerPort='25'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : encryptionFileKey='null'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : dumpConnectionOnSQLException='true'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : connectionAutoCommit='true'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : onExceptionCheckSQL='null'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] config item : killActiveConnectionsOverAge='120000'
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] start() cmpool version 3.0.15, release date 29-April-2010
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] start() JDBC Driver Name: MySQL-AB JDBC Driver
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] start() Starting new pool monitor.
+14/6/2020 23:13:29 : INFO: [Pool@teeshope] start() Load complete.

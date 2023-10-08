@@ -1,0 +1,656 @@
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 9:47:39 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 9:47:40 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 9:47:40 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 9:47:40 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 9:47:40 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 9:47:40 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 9:47:46 : INFO: [Pool@caythuocdangian] stop() Stopping pool with force=true ...
+12/4/2019 9:47:46 : INFO: [Pool@caythuocdangian] stop() Shutting down pool monitor.
+12/4/2019 9:47:46 : INFO: [Pool@caythuocdangian] stop() Stop Complete.
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 9:48:3 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 9:48:4 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 9:48:4 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 9:48:4 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 9:48:4 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 9:48:4 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 9:48:6 : INFO: [Pool@caythuocdangian] stop() Stopping pool with force=true ...
+12/4/2019 9:48:6 : INFO: [Pool@caythuocdangian] stop() Shutting down pool monitor.
+12/4/2019 9:48:6 : INFO: [Pool@caythuocdangian] stop() Stop Complete.
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 9:53:7 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 9:59:8 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 9:59:9 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 9:59:9 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 9:59:9 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 9:59:9 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 9:59:9 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:1:45 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:4:13 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:5:48 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:7:22 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:7:26 : INFO: [Pool@caythuocdangian] stop() Stopping pool with force=true ...
+12/4/2019 10:7:26 : INFO: [Pool@caythuocdangian] stop() Shutting down pool monitor.
+12/4/2019 10:7:26 : INFO: [Pool@caythuocdangian] stop() Stop Complete.
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:7:38 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:8:49 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:16:39 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@26132395 has exceeded max idle time (300000 ms) with idle time of (306811 ms) - dropping connection
+12/4/2019 10:16:39 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@30571982 has exceeded max idle time (300000 ms) with idle time of (306820 ms) - dropping connection
+12/4/2019 10:16:39 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@6964700 has exceeded max idle time (300000 ms) with idle time of (306809 ms) - dropping connection
+12/4/2019 10:16:39 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@17348252 has exceeded max idle time (300000 ms) with idle time of (306819 ms) - dropping connection
+12/4/2019 10:16:39 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@28649619 has exceeded max idle time (300000 ms) with idle time of (306817 ms) - dropping connection
+12/4/2019 10:16:39 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@15851923 has exceeded max idle time (300000 ms) with idle time of (306812 ms) - dropping connection
+12/4/2019 10:16:39 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@13819054 has exceeded max idle time (300000 ms) with idle time of (306814 ms) - dropping connection
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:22:0 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:22:7 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:22:47 : INFO: [Pool@caythuocdangian] stop() Stopping pool with force=true ...
+12/4/2019 10:22:47 : INFO: [Pool@caythuocdangian] stop() Shutting down pool monitor.
+12/4/2019 10:22:47 : INFO: [Pool@caythuocdangian] stop() Stop Complete.
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:29:52 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 10:29:55 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 10:29:56 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 10:29:56 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 10:29:56 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 10:29:56 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 10:29:56 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 13:46:30 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 13:46:31 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 13:46:31 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 13:46:31 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 13:46:31 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 13:46:31 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 13:46:32 : INFO: [Pool@caythuocdangian] stop() Stopping pool with force=true ...
+12/4/2019 13:46:32 : INFO: [Pool@caythuocdangian] stop() Shutting down pool monitor.
+12/4/2019 13:46:32 : INFO: [Pool@caythuocdangian] stop() Stop Complete.
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 13:49:59 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 13:50:9 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 13:50:10 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 13:50:10 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 13:50:10 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 13:50:10 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 13:50:10 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 13:53:10 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 13:58:20 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@8825422 has exceeded max idle time (300000 ms) with idle time of (308655 ms) - dropping connection
+12/4/2019 13:58:20 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@26897804 has exceeded max idle time (300000 ms) with idle time of (308649 ms) - dropping connection
+12/4/2019 13:58:20 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@11556800 has exceeded max idle time (300000 ms) with idle time of (308644 ms) - dropping connection
+12/4/2019 13:58:20 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@8820976 has exceeded max idle time (300000 ms) with idle time of (308644 ms) - dropping connection
+12/4/2019 13:58:20 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@28649619 has exceeded max idle time (300000 ms) with idle time of (308662 ms) - dropping connection
+12/4/2019 13:58:20 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@22163953 has exceeded max idle time (300000 ms) with idle time of (308663 ms) - dropping connection
+12/4/2019 13:58:20 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@24565280 has exceeded max idle time (300000 ms) with idle time of (308659 ms) - dropping connection
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 15:1:19 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 15:1:20 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 15:1:20 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 15:1:20 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 15:1:20 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 15:1:20 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] STARTING caythuocdangian ...
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] Checking 'waitForConnectionIfDatabaseIsDown' rule  ...
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : poolName='caythuocdangian'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : logLevel='info,warn,error,crisis'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : base='90'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : log='log/${yyyy-MM-dd}.log'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServerPort='25'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : smtpMailExchangeServer='null'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : killActiveConnectionsOverAge='120000'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : queueConnectionRequests='true'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : dumpConnectionOnSQLException='true'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : emailEvents='null'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : adminEmail='null'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : idleTime='300000'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : driverClass='com.mysql.jdbc.Driver'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : driverURL='jdbc:mysql://localhost:3306/zdpkhpafhosting_camnangduoc?useUnicode=true&characterEncoding=utf-8'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : runPooledMode='true'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : checkSQL='null'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : failoverPool='null'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : cycleConnections='1000'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : connectionAutoCommit='true'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : encryptionFileKey='null'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : onExceptionCheckSQL='null'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : numberOfConnectionsToInitializeWith='1'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : connectionTransactionIsolation='-1'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] config item : waitForConnectionIfDatabaseIsDown='true'
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] start() cmpool version 3.0.15, release date 29-April-2010
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] start() JDBC Driver Name: MySQL-AB JDBC Driver
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] start() JDBC Driver Version: mysql-connector-java-5.1.15 ( Revision: ${bzr.revision-id} )
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] start() Starting new pool monitor.
+12/4/2019 15:27:30 : INFO: [Pool@caythuocdangian] start() Load complete.
+12/4/2019 15:33:30 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@16187025 has exceeded max idle time (300000 ms) with idle time of (304983 ms) - dropping connection
+12/4/2019 15:33:30 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@27228504 has exceeded max idle time (300000 ms) with idle time of (305004 ms) - dropping connection
+12/4/2019 15:33:30 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@5311534 has exceeded max idle time (300000 ms) with idle time of (305055 ms) - dropping connection
+12/4/2019 15:33:30 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@25136777 has exceeded max idle time (300000 ms) with idle time of (305009 ms) - dropping connection
+12/4/2019 15:33:30 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@19234042 has exceeded max idle time (300000 ms) with idle time of (305001 ms) - dropping connection
+12/4/2019 15:33:30 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@3792705 has exceeded max idle time (300000 ms) with idle time of (305004 ms) - dropping connection
+12/4/2019 15:33:30 : INFO: [PoolMonitor@caythuocdangian] PoolConnection@29740901 has exceeded max idle time (300000 ms) with idle time of (305005 ms) - dropping connection

@@ -1,0 +1,21 @@
+# Database teeshope.net
+poolName=teeshope
+base=90
+log=log/${yyyy-MM-dd}.log
+idleTime=300000
+driverClass=com.mysql.jdbc.Driver
+driverURL=jdbc:mysql://localhost:3306/teeshope?useUnicode=true&characterEncoding=utf-8
+user=root
+password=interland
+killActiveConnectionsOverAge=120000
+cycleConnections=1000
+queueConnectionRequests=true
+waitForConnectionIfDatabaseIsDown=true
+logLevel=info,warn,error,crisis
+
+-------------------------------------------------
+teeshope.image=/var/www/html/wordpress/wp-content/uploads/
+teeshope.guid=https://teeshope.net/?post_type=product&#038;p=
+teeshope.guidimg=http://teeshope.net/wp-content/uploads/
+teeshope.site=http://teeshope.net/
+-------------------------------------------------

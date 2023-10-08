@@ -1,0 +1,61 @@
+#!/bin/bash
+### huutuanit852000@gmail.com ###
+if [ -f $HOME/.bash_profile ]
+then
+ source $HOME/.bash_profile
+fi
+
+if [ -f $HOME/.profile ]
+then
+ source $HOME/.profile
+fi
+
+if [ "$1" = "help" ]
+then
+    func_hmonitor help
+    exit 0
+fi
+
+cd $SCRIPT_DIR
+
+if [ "$1" = "list" ]||[ "$1" = "ls" ]
+then
+    func_hmonitor list
+    exit 0
+fi
+
+if [ "$1" = "statusall" ]
+then
+    LIST_MODULE=`func_hmonitor list`
+    
+    for MODULE_NAME in $LIST_MODULE
+    do
+        func_hmonitor $MODULE_NAME simplestatus
+    done
+    exit 0
+fi
+
+if [ "$1" = "startall" ]
+then
+    LIST_MODULE=`func_hmonitor list`
+    
+    for MODULE_NAME in $LIST_MODULE
+    do
+        func_hmonitor $MODULE_NAME startnoprintcmd
+    done
+    exit 0
+fi
+
+if [ "$1" = "stopall" ]
+then
+    LIST_MODULE=`func_hmonitor list`
+    
+    for MODULE_NAME in $LIST_MODULE
+    do
+        func_hmonitor $MODULE_NAME startnoprintcmd
+    done
+    exit 0
+fi
+
+func_hmonitor $1 $2 $3
+

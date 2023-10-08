@@ -1,0 +1,621 @@
+#!/bin/bash
+##########################
+### huutuanit852000@gmail.com ###
+##########################
+
+if [ -f $HOME/.bash_profile ]
+then
+ source $HOME/.bash_profile
+fi
+
+if [ -f $HOME/.profile ]
+then
+ source $HOME/.profile
+fi
+
+LOG_MDL_FILE=${LOG_DIR}/modulerun.log
+
+SCRIPT_PATH=`which func_hmonitor`
+SCRIPT_DIR=`dirname $SCRIPT_PATH`
+
+if [ -f ${SCRIPT_DIR}/info.txt ]
+then
+    source ${SCRIPT_DIR}/info.txt
+else
+    echo "Info file ${SCRIPT_DIR}/info.txt not found"
+    exit 4
+fi
+
+if [ ! -d $LOG_DIR ]
+then
+    mkdir -p $LOG_DIR
+fi
+
+usage()
+{
+    if [ -z $1 ]
+    then
+        USG_MDL_NAME=ModuleName
+    else
+        USG_MDL_NAME=$1
+    fi
+    echo -e "USAGE:\n${ELCOM_SYSTEM} $USG_MDL_NAME start|stop|restart|status|logs|taillog 0,1,2,3..|vimlog 0,1,2,3..|tracelog 0,1,2,3...|configs|viconfig 0,1,2,3..."
+    echo -e "EXAMPLE:\n${ELCOM_SYSTEM} $USG_MDL_NAME start"
+}
+
+list()
+{
+    LIST_MODULE=`ls -1 $SCRIPT_DIR/*.cfg`
+    for MODULE_PATH_CFG in $LIST_MODULE
+    do
+        MODULE_PATH_CFG_FILE=${MODULE_PATH_CFG##*/}
+        echo ${MODULE_PATH_CFG_FILE%.cfg}
+    done
+}
+
+if [ -z $1 ]
+then
+    echo "Command is nod valid"
+    usage
+    exit 1
+fi
+
+if [ "$1" = "help" ]
+then
+    usage
+    exit 0
+fi
+
+cd $SCRIPT_DIR
+
+if [ "$1" = "list" ]
+then
+    list
+    exit 0
+fi
+
+COLOR_RED='\033[0;31m'
+COLOR_GREEN='\033[0;32m'
+COLOR_PURPLE='\033[0;35m'
+COLOR_DEFAULT='\033[0m'
+
+MDL_NAME=$1
+MDL_CFG_FILE=${SCRIPT_DIR}/${MDL_NAME}.cfg
+
+if [ ! -f $MDL_CFG_FILE ]
+then
+    echo "Config file $MDL_CFG_FILE could not found. Please create and setting file $MDL_CFG_FILE before run this command"
+    exit 2
+fi
+
+source $MDL_CFG_FILE
+
+## Kiem tra root
+##### Mode Type ######
+# 0: Non-Root Only
+# 1: Root Only
+# 2: All User
+######################
+if [ -n "$USER_MODE" ]
+then
+    RUN_USER_MODE=$USER_MODE
+else
+    RUN_USER_MODE=0
+fi
+##
+
+cd $BIN_DIR
+
+CMD_EXIS=`ps -eo pid,args | grep "$PRS_ID_KEY" | grep -v grep`
+
+RESULT_NL=`echo -e "$CMD_EXIS" | wc -l`
+if [ $RESULT_NL -gt 1 ]
+then
+    echo "Too more than one Process have key $PRS_ID_KEY. Please select: (0 for non off all)"
+    IFS=$'\n'
+    INDX=1
+    for PS_LINE in $CMD_EXIS
+    do
+        echo $INDX. $PS_LINE
+        INDX=`expr $INDX + 1`
+    done
+    
+    echo -n "#"
+    read PS_LINE_INDX
+    
+    if [ -z "$PS_LINE_INDX" ] || [ $PS_LINE_INDX -gt $RESULT_NL ]
+    then
+        echo "Invalid Value"
+        exit 1
+    else
+        if [ $PS_LINE_INDX -gt 0 ]
+        then
+            SELECTED_PROCESS=`echo "$CMD_EXIS" | head -$PS_LINE_INDX | tail -1`
+            #echo "Select: $SELECTED_PROCESS"
+            CMD_EXIS=$SELECTED_PROCESS
+        else
+            CMD_EXIS=""
+        fi
+    fi
+fi
+
+
+if [ -n "$CMD_EXIS" ]
+then
+    PROC_EXIS=$CMD_EXIS
+    PID=`echo $CMD_EXIS | awk -F' ' '{print $1}'`
+fi
+
+log()
+{
+    DATE=`date +"%Y-%m-%d %H:%M:%S"`
+    echo "|${DATE}| $1" >> $LOG_FILE
+}
+
+logs()
+{
+	i=0
+	echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+	for each in "${LOG_FILE[@]}"
+	do 
+	
+		echo "*"
+		echo "*" '['$i'] ' $each
+		echo "*"
+		i=$((i+1))
+	done
+	echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+
+}
+
+tracelog(){
+
+	 LOG_INDEX=$2
+	 if [ -n "$LOG_INDEX" ]
+	 then
+	     echo "OK"
+	 else
+	    LOG_INDEX=0
+	 fi
+	 echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+	 echo "*" '['$LOG_INDEX']' ${LOG_FILE[$LOG_INDEX]}
+	 echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+	 grep $2 ${LOG_FILE[$LOG_INDEX]}
+	
+
+}
+
+echo_ok()
+{
+    printf "%-70s [${COLOR_GREEN}%s${COLOR_DEFAULT}]\n" "$1" "OK"
+}
+
+echo_fail()
+{
+    printf "%-70s [${COLOR_RED}%s${COLOR_DEFAULT}]\n" "$1" "FAILURE"
+}
+
+echo_notice()
+{
+    printf "%-70s [${COLOR_PURPLE}%s${COLOR_DEFAULT}]\n" "$1" "NOTICE"
+}
+
+start()
+{
+    if [ -n "$CMD_EXIS" ]
+    then
+        echo_fail "$MDL_NAME pid:$PID is running. Stop first"
+        echo -e "Full Process Command\n$CMD_EXIS"
+    else
+        if [ "$RUN_USER_MODE" -eq "0" ]
+        then
+            if [ "$USER" == "root" ]
+            then
+                echo_fail "$MDL_NAME only run with normal user"
+            else
+                if [ -f ./$STARTUP_FILE ]
+                then
+                    ./$STARTUP_FILE
+                    echo_ok "$MDL_NAME is started."
+                    log "$MDL_NAME is started"
+                else
+                    echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+                fi
+            fi
+        elif [ "$RUN_USER_MODE" -eq "1" ]
+        then
+            if [ "$USER" != "root" ]
+            then
+                echo_fail "$MDL_NAME only run with root user"
+            else
+                if [ -f ./$STARTUP_FILE ]
+                then
+                    ./$STARTUP_FILE
+                    echo_ok "$MDL_NAME is started."
+                    log "$MDL_NAME is started"
+                else
+                    echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+                fi
+            fi
+        else
+            if [ -f ./$STARTUP_FILE ]
+            then
+                ./$STARTUP_FILE
+                echo_ok "$MDL_NAME is started."
+                log "$MDL_NAME is started"
+            else
+                echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+            fi
+        fi
+    fi
+}
+
+startnoprintcmd()
+{
+    if [ -n "$CMD_EXIS" ]
+    then
+        echo_fail "$MDL_NAME pid:$PID is running. Stop first"
+    else
+        if [ "$RUN_USER_MODE" -eq "0" ]
+        then
+            if [ "$USER" == "root" ]
+            then
+                echo_fail "$MDL_NAME only run with normal user"
+            else
+                if [ -f ./$STARTUP_FILE ]
+                then
+                    ./$STARTUP_FILE
+                    echo_ok "$MDL_NAME is started."
+                    log "$MDL_NAME is started"
+                else
+                    echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+                fi
+            fi
+        elif [ "$RUN_USER_MODE" -eq "1" ]
+        then
+            if [ "$USER" != "root" ]
+            then
+                echo_fail "$MDL_NAME only run with root user"
+            else
+                if [ -f ./$STARTUP_FILE ]
+                then
+                    ./$STARTUP_FILE
+                    echo_ok "$MDL_NAME is started."
+                    log "$MDL_NAME is started"
+                else
+                    echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+                fi
+            fi
+        else
+            if [ -f ./$STARTUP_FILE ]
+            then
+                ./$STARTUP_FILE
+                echo_ok "$MDL_NAME is started."
+                log "$MDL_NAME is started"
+            else
+                echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+            fi
+        fi
+    fi
+}
+
+stop()
+{
+    if [ -n "$CMD_EXIS" ]
+    then
+        kill $PID > /dev/null 2>&1
+        if [ "$?" -eq "0" ]
+        then
+            echo_ok "$MDL_NAME pid:$PID is marked to stop. Please run ${ELCOM_SYSTEM} $MDL_NAME status for check again after 5 second. Thank you."
+            echo -e "Full Process Command\n$CMD_EXIS"
+            log "$MDL_NAME pid:$PID is marked to stop."
+        else
+            echo_fail "$MDL_NAME cannot be killed by user $USER"
+        fi
+    else
+        echo_fail "$MDL_NAME is not running. Start first"
+    fi
+}
+
+stopnow()
+{
+    if [ -n "$CMD_EXIS" ]
+    then
+        kill -9 $PID > /dev/null 2>&1
+        if [ "$?" -eq "0" ]
+        then
+            echo_ok "$MDL_NAME pid:$PID is stopped. Thank you."
+            echo -e "Full Process Command\n$CMD_EXIS"
+            log "$MDL_NAME pid:$PID is stopped."
+        else
+            echo_fail "$MDL_NAME cannot be killed by user $USER"
+        fi
+    else
+        echo_fail "$MDL_NAME is not running. Start first"
+    fi
+}
+
+stopnownoprintcmd()
+{
+    if [ -n "$CMD_EXIS" ]
+    then
+        kill -9 $PID > /dev/null 2>&1
+        if [ "$?" -eq "0" ]
+        then
+            echo_ok "$MDL_NAME pid:$PID is stopped. Thank you."
+            log "$MDL_NAME pid:$PID is stopped."
+        else
+            echo_fail "$MDL_NAME cannot be killed by user $USER"
+        fi
+    else
+        echo_fail "$MDL_NAME is not running. Start first"
+    fi
+}
+
+restart()
+{
+    if [ -n "$CMD_EXIS" ]
+    then
+        echo "Perform Stop"
+        kill -9 $PID > /dev/null 2>&1
+        
+        if [ "$?" -eq "0" ]
+        then
+            echo_ok "$MDL_NAME pid:$PID is stopped."
+            log "$MDL_NAME pid:$PID is stopped."
+            echo -e "Full Process Command\n$CMD_EXIS"
+            
+            echo "--- Start"
+            if [ "$RUN_USER_MODE" -eq "0" ]
+            then
+                if [ "$USER" == "root" ]
+                then
+                    echo_fail "$MDL_NAME only run with normal user"
+                else
+                    if [ -f ./$STARTUP_FILE ]
+                    then
+                        ./$STARTUP_FILE
+                        echo_ok "$MDL_NAME is started."
+                        log "$MDL_NAME is started"
+                    else
+                        echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+                    fi
+                fi
+            elif [ "$RUN_USER_MODE" -eq "1" ]
+            then
+                if [ "$USER" != "root" ]
+                then
+                    echo_fail "$MDL_NAME only run with root user"
+                else
+                    if [ -f ./$STARTUP_FILE ]
+                    then
+                        ./$STARTUP_FILE
+                        echo_ok "$MDL_NAME is started."
+                        log "$MDL_NAME is started"
+                    else
+                        echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+                    fi
+                fi
+            else
+                if [ -f ./$STARTUP_FILE ]
+                then
+                    ./$STARTUP_FILE
+                    echo_ok "$MDL_NAME is started."
+                    log "$MDL_NAME is started"
+                else
+                    echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+                fi
+            fi
+        else
+            echo_fail "$MDL_NAME cannot be killed by user $USER"
+        fi   
+    else
+        if [ "$RUN_USER_MODE" -eq "0" ]
+        then
+            if [ "$USER" == "root" ]
+            then
+                echo_fail "$MDL_NAME only run with normal user"
+            else
+                if [ -f ./$STARTUP_FILE ]
+                then
+                    ./$STARTUP_FILE
+                    echo_ok "$MDL_NAME is started."
+                    log "$MDL_NAME is started"
+                else
+                    echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+                fi
+            fi
+        elif [ "$RUN_USER_MODE" -eq "1" ]
+        then
+            if [ "$USER" != "root" ]
+            then
+                echo_fail "$MDL_NAME only run with root user"
+            else
+                if [ -f ./$STARTUP_FILE ]
+                then
+                    ./$STARTUP_FILE
+                    echo_ok "$MDL_NAME is started."
+                    log "$MDL_NAME is started"
+                else
+                    echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+                fi
+            fi
+        else
+            if [ -f ./$STARTUP_FILE ]
+            then
+                ./$STARTUP_FILE
+                echo_ok "$MDL_NAME is started."
+                log "$MDL_NAME is started"
+            else
+                echo_fail "Cannot find startup file ${BIN_DIR}/${STARTUP_FILE}"
+            fi
+        fi
+    fi
+}
+
+status()
+{
+    
+    if [ -n "$CMD_EXIS" ]
+    then
+        echo_ok "$MDL_NAME pid:$PID is running."
+        echo -e "Full Process Command\n$CMD_EXIS"
+    else
+        echo_notice "$MDL_NAME is not running."
+    fi
+}
+
+simplestatus()
+{
+    if [ -n "$CMD_EXIS" ]
+    then
+        echo_ok "$MDL_NAME pid:$PID is running."
+    else
+        echo_notice "$MDL_NAME is not running."
+    fi
+}
+
+keepalivedstatus()
+{
+    if [ -n "$CMD_EXIS" ]
+    then
+        exit 0
+    else
+        exit 1
+    fi
+}
+dir(){
+	echo $BIN_DIR
+}
+configs(){
+        i=0
+        echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+        for each in "${CONFIG_FILE[@]}"
+        do
+
+                echo "*"
+                echo "*" '['$i'] ' $each
+                echo "*"
+                i=$((i+1))
+        done
+        echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+	
+}
+viconfig(){
+    CONFIG_INDEX=$2
+    if [ -n "$CONFIG_INDEX" ]
+    then
+        echo "OK"
+    else
+    	CONFIG_INDEX=0
+    fi
+    vim ${CONFIG_FILE[$CONFIG_INDEX]}
+}
+taillog()
+{
+    LOG_INDEX=$2
+    if [ -n "$LOG_INDEX" ]
+    then
+    	echo "OK"
+    else
+    	LOG_INDEX=0 
+    fi
+    echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+    echo "* " '['$LOG_INDEX']' ${LOG_FILE[$LOG_INDEX]}
+    echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+    tail -f ${LOG_FILE[$LOG_INDEX]}
+}
+
+vimlog()
+{
+    LOG_INDEX=$2
+    if [ -n "$LOG_INDEX" ]
+    then
+    	echo "OK"
+    else
+    	LOG_INDEX=0 
+    fi
+    echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+    echo "* " '['$LOG_INDEX']' ${LOG_FILE[$LOG_INDEX]}
+    echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"
+    vim ${LOG_FILE[$LOG_INDEX]}
+}
+case "$2" in
+start)
+    start
+    ;;
+    
+startnoprintcmd)
+    startnoprintcmd
+    ;;
+stop)
+    stop
+    ;;
+
+restart)
+    restart
+    ;;
+    
+status)
+    status
+    ;;
+    
+simplestatus)
+    simplestatus
+    ;;
+
+stopnow)
+    stopnow
+    ;;
+    
+startnoprintcmd)
+    startnoprintcmd
+    ;;
+    
+help)
+    usage
+    ;;
+keepalivedstatus)
+    keepalivedstatus
+    ;;
+dir)
+   dir
+   ;;
+log*)
+logs
+   ;;
+config*)
+   configs
+   ;;
+cfg*)
+   configs
+   ;;
+viconfig*)
+   viconfig $2 $3
+   ;;
+vimconfig*)
+   viconfig $2 $3
+   ;;
+vimcofg*)
+   viconfig $2 $3
+   ;;
+vicfg*)
+   viconfig $2 $3
+   ;;
+taillog*)
+    taillog $2 $3
+    ;;
+vimlog*)
+    vimlog $2 $3
+    ;;
+vilog*)
+    vimlog $2 $3
+    ;;
+tracelog*)
+    tracelog $2 $3
+   ;;
+*)
+    usage $MDL_NAME
+    ;;
+esac
+

@@ -1,0 +1,8 @@
+name=teeshope
+message.title=.//div[@class='col-sm-12']/h1[@class='text-capitalize']/text()
+message.sku=.//h1[@class='text-capitalize']/../small
+message.designed=.//h1[@class='text-capitalize']/../a/strong
+message.content=.//div[@class='hidden-xs']/h4/..
+message.regularprice=.//h1[@class='top_title text-success']/text()
+message.image=.//div[@class='productFrame ' or @class='productFrame']/img/@data-src
+message.saleprice=.//h1[@class='top_title']/text()

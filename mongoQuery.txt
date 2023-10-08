@@ -1,0 +1,55 @@
+---------------------------------------
+Message Collection
+category,message,image,merchant,merchantlocation,provins,districts
+
+---Create unique
+db.message.createIndex( { "link": 1}, { unique: true } )
+db.image.createIndex( { "src": 1}, { unique: true } )
+db.category.createIndex( { "link": 1}, { unique: true } )
+db.provins.createIndex( { "provinid": 1,"regionid":1 }, { unique: true } )
+db.districts.createIndex( { "provinid": 1,"regionid":1 }, { unique: true } )
+db.merchantlocation.createIndex( { "branchmap": 1}, { unique: true } )
+
+--Delete duplicate 
+---------------------------------------
+db.image.ensureIndex({src: 1, nodes: 1}, {unique: true, dropDups: true}) 
+db.category.ensureIndex({src: 1, nodes: 1}, {unique: true, dropDups: true}) 
+db.message.ensureIndex({link: 1, nodes: 1}, {unique: true, dropDups: true}) 
+---------------------------------------
+
+---------------------------------------
+db.message.count({"status":"done"})
+db.message.count({"status":"running"})
+db.message.count({"link"://})
+db.message.find({"link":/1951935506/})
+db.message.find({"link":"http://websosanh.vn/bo-nguon-dc-qj3005eiii-0-30v05a-2-output/43586703/so-sanh.htm"})
+db.message.find({"_id":ObjectId("581b501fd5ed10a323ee4252")})
+/******Update*****/
+db.message.update({"status" :"done"},{$set:{"status" : "running","time" : NumberLong(1292925318250)}},{multi:true})
+db.message.update({"link" : /direct.htm/},{$set:{"status" : "direct","time" : NumberLong(1292925318250)}},{multi:true})
+/*****Find not equal*****/
+db.merchant.find({"product":ObjectId("581b5f365bc533269c43dd36"), "link":{$ne:""}})
+---------------------------------------
+image Collection
+
+db.image.count({"status":"done"})
+db.image.count({"status":"running"})
+db.image.count({"link"://})
+db.image.count({"product":ObjectId("581b501fd5ed10a323ee4252")})
+db.image.find({"product":ObjectId("581b501fd5ed10a323ee4252")})
+db.image.find({"link"://})
+
+db.devices.update({"status":"running"}, {$set:{"status":"ready", "time" : NumberLong(1292925318250)}},{multi:true})
+---------------------------------------
+merchant Collection
+
+db.merchant.count({"status":"done"})
+db.merchant.count({"status":"running"})
+db.merchant.count({"link"://})
+db.merchant.count({"product":ObjectId("581b501fd5ed10a323ee4252")})
+db.merchant.find({"link"://})
+
+---------------------------------------
+merchantlocation Collection
+db.merchantlocation.update({"status" :"done","province":""},{$set:{"status" : "running","time" : NumberLong(1292925318250)}},{multi:true})
+scp -r 11/15 root@67.205.138.125:/var/www/html/wordpress/wp-content/uploads/2018/11/15
